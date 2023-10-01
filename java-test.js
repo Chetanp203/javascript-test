@@ -19,8 +19,10 @@
 
 //Q.2**********
 
+
+
 // const checkPalindrome =(...x)=>{
-//     if(x.join('') ===x.reverse().join('')){
+//     if(x.join('') === x.reverse().join('')){
 //         return true;
 //     }else{
 //         return false
@@ -95,6 +97,54 @@
 
 
 
+// let array =[1,2,2,5,3,2,4]
+
+// function removeDuplicate(array){
+//    let sortedArray= array.sort((a,b)=>(a-b))
+//   let newArray = [...new Set(sortedArray)];
+//   return newArray
+// }
+// console.log(removeDuplicate(array))
+
+
+
+
+
+
+
+// Q.7 **********************
+
+
+
+
+
+
+
+
+
+// Q.8 **********************
+
+// function isPrime(number) { 
+//     if (number < 2) {
+//         return false;
+//     }
+//     for (let i = 2; i <= Math.sqrt(number); i++) {
+//         if (number % i === 0) {
+       
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// const num = 2;
+// console.log(isPrime(num));  
+
+
+
+
+
+
+
 
 // Q.10 ****************
 
@@ -106,6 +156,29 @@
 
 
 
+
+// Q.11 *********************
+
+
+
+// nums = [2,4,1,3,6,7,8]
+
+
+// var missingNumber = function(nums) {
+//     let n = nums.length;
+//      let ans = new Set(nums);
+//      let array = [];
+//      for (let i = 1; i <= n; i++) {
+//          if (!ans.has(i)) {
+//             console.log(ans.has(i))
+//             array.push(i);
+//          }
+//      }
+//      return array;
+     
+//  }
+//      let res = missingNumber(nums)
+//      console.log(res)
 
 
 
@@ -129,6 +202,6 @@
 
 //Q.15 **************
 
-const duplicateCharacter =(str)=>{
+// const duplicateCharacter =(str)=>{
     
-}
+// }
